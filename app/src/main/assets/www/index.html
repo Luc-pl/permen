@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8" />
+		<title>Permen</title>
+		<meta name="permen-mobile" content="Permen" />
+		<meta name="generator" content="In5 v3.8.14" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta
+			name="viewport"
+			content="initial-scale=1.0,minimum-scale=.2,maximum-scale=1.0,user-scalable=no"
+		/>
+		<script
+			type="text/javascript"
+			src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+		></script>
+		<script type="text/javascript">
+			window.jQuery ||
+				document.write('<script src="assets/js/jquery.min.js"><\/script>');
+		</script>
+		<script type="text/javascript" src="assets/js/vmouse.min.js"></script>
+		<script
+			type="text/javascript"
+			src="assets/js/jquery.anythingslider.min.js"
+		></script>
+		<script type="text/javascript" src="assets/js/in5.config.js"></script>
+		<script
+			type="text/javascript"
+			src="assets/js/jquery.touchSwipe.min.js"
+		></script>
+		<link rel="stylesheet" href="assets/css/in5.slider.css" media="all" />
+		<link rel="stylesheet" href="assets/css/pages.css" media="all" />
+		<style media="all and (-ms-high-contrast:none)">
+			*::-ms-backdrop,
+			.svg-img {
+				width: 100%;
+			}
+		</style>
+		<style media="all and (-ms-high-contrast:none)">
+			*::-ms-backdrop,
+			.svg-img {
+				width: 100%;
+			}
+		</style>
+		<link rel="stylesheet" href="assets/css/animate.min.css" />
+	</head>
+	<body>
+		<!--[if lt IE 10]>
+			<p class="chromeframe">
+				You are using an <strong>outdated</strong> browser. Please
+				<a href="http://browsehappy.com/">upgrade your browser</a> or
+				<a href="http://www.google.com/chromeframe/?redirect=true"
+					>activate Google Chrome Frame</a
+				>
+				to improve your experience.
+			</p>
+		<![endif]-->
+		<div id="loadIndicator">
+			<img src="assets/images/loading.gif" alt="loading..." /><span
+				>&nbsp;</span
+			>
+		</div>
+		<div id="container-wrap">
+			<div id="container">
+				<ul class="pages" id="slider">
+					<li class="page" data-name="1">
+						<div
+							class="page-scale-wrap mq-none mq-default"
+							role="region"
+							data-layout-name="undefined"
+							style="width: 1920px; height: 1200px"
+						>
+							<img
+								src="assets/images/blank.gif"
+								alt="Rectangle"
+								style="left: -3px !important"
+								id="item16756"
+								class="pageItem"
+								data-src="assets/images/item_okladka.png"
+							/>
+						</div>
+						<div class="nowosc">
+							<img src="assets/images/item_nowosc.png" alt="Rectangle" />
+						</div>
+						<div class="opakowanie">
+							<img
+								src="assets/images/item_tabletki.png"
+								alt="Permen opakowanie"
+							/>
+						</div>
+						<div class="info-nr">
+							<p>STADA/PL/2023/524</p>
+						</div>
+					</li>
+					<li class="page page2" data-name="2">
+						<div
+							class="page-scale-wrap mq-none mq-default"
+							role="region"
+							data-layout-name="undefined"
+							style="width: 1920px; height: 1200px"
+						>
+							<img
+								src="assets/images/blank.gif"
+								alt="Rectangle"
+								id="item16974"
+								class="pageItem"
+								data-src="assets/images/item_00.png"
+							/>
+						</div>
+						<div class="row">
+							<div class="box-info-1">
+								<img src="assets/images/item_01.png" alt="" />
+							</div>
+							<div class="box-info-2 anim2 delay-2">
+								<img src="assets/images/item_02.png" alt="" />
+							</div>
+							<div class="box-info-3 anim2 delay-3">
+								<img src="assets/images/item_03.png" alt="" />
+							</div>
+						</div>
+					</li>
+					<li class="page page3" data-name="3">
+						<div
+							class="page-scale-wrap mq-none mq-default"
+							role="region"
+							data-layout-name="undefined"
+							style="width: 1920px; height: 1200px"
+						>
+							<img src="assets/images/item_00.png" alt="Rectangle" />
+						</div>
+						<div class="row">
+							<div class="box-info-1 anim2 delay-1">
+								<img src="assets/images/item_04.png" alt="" />
+							</div>
+							<div class="box-info-2 anim2 delay-2">
+								<img src="assets/images/item_05.png" alt="" />
+							</div>
+							<div class="box-info-3 anim2 delay-3">
+								<img src="assets/images/item_06.png" alt="" />
+							</div>
+						</div>
+					</li>
+					<li class="page" data-name="4">
+						<div
+							class="page-scale-wrap mq-none mq-default"
+							role="region"
+							data-layout-name="undefined"
+							style="width: 1920px; height: 1200px"
+						>
+							<img
+								src="assets/images/item_zaburzenia.png"
+								alt="Rectangle"
+								id="item18988"
+								class="pageItem"
+								data-src="assets/images/item_zaburzenia.png"
+							/>
+							<div class="button-red popupopen" [data-popup]="skutecznosc">
+								<img src="assets/images/item_sprawdz.png" alt="Permen logo" />
+							</div>
+							<div class="button-reka">
+								<img src="assets/images/item_reka.png" alt="Permen logo" />
+							</div>
+							<div class="logo-s1">
+								<img src="assets/images/item_logo.png" alt="Permen logo" />
+							</div>
+						</div>
+
+						<div class="popup" id="skutecznosc">
+							<img
+								src="assets/images/item_pop_1.png"
+								alt="Rectangle"
+								id="item18655"
+								class="pageItem"
+								data-src="assets/images/item_pop_1.png"
+							/>
+						</div>
+					</li>
+					<li class="page" data-name="5">
+						<div
+							class="page-scale-wrap mq-none mq-default"
+							role="region"
+							data-layout-name="undefined"
+							style="width: 1920px; height: 1200px"
+						>
+							<img
+								src="assets/images/item_opis.png"
+								alt="Rectangle"
+								id="item18988"
+								class="pageItem"
+								data-src="assets/images/item_opis.png"
+							/>
+							<img
+								src="assets/images/item_blask.png"
+								alt="poswiata"
+								class="poswiata"
+							/>
+							<img
+								src="assets/images/item_opakowanie.png"
+								alt="tabletki"
+								class="tabletki2"
+							/>
+						</div>
+					</li>
+					<li class="page" data-name="6">
+						<div
+							class="page-scale-wrap mq-none mq-default"
+							role="region"
+							data-layout-name="undefined"
+							style="width: 1920px; height: 1200px"
+						>
+							<img
+								src="assets/images/item_slupki.png"
+								alt="Rectangle"
+								id="item18988"
+								class="pageItem"
+								data-src="assets/images/item_slupki.png"
+							/>
+						</div>
+					</li>
+					<li class="page page7" data-name="7">
+						<div
+							class="page-scale-wrap mq-none mq-default"
+							role="region"
+							data-layout-name="undefined"
+							style="width: 1920px; height: 1200px"
+						>
+							<img
+								src="assets/images/item_prawidlowy.png"
+								alt="Rectangle"
+								id="item18988"
+								class="pageItem"
+								data-src="assets/images/item_prawidlowy.png"
+							/>
+							<div class="logo-s1">
+								<img src="assets/images/item_logo.png" alt="Permen logo" />
+							</div>
+							<div class="row">
+								<div class="box-white anim2 delay-1">
+									<img
+										src="assets/images/item_box_alkohol.png"
+										alt="Permen logo"
+									/>
+									<img
+										src="assets/images/item_alkohol.png"
+										alt="Permen logo"
+										class="icon-white"
+									/>
+								</div>
+								<div class="box-white anim2 delay-2">
+									<img
+										src="assets/images/item_box_stymulacja.png"
+										alt="Permen logo"
+									/>
+									<img
+										src="assets/images/item_usta.png"
+										alt="Permen logo"
+										class="icon-white"
+									/>
+								</div>
+								<div class="box-white anim2 delay-3">
+									<img
+										src="assets/images/item_box_zblizenie.png"
+										alt="Permen logo"
+									/>
+									<img
+										src="assets/images/item_zegar.png"
+										alt="Permen logo"
+										class="icon-white"
+									/>
+								</div>
+								<div class="box-white anim2 delay-4">
+									<img
+										src="assets/images/item_box_red1.png"
+										alt="Permen logo"
+									/>
+								</div>
+								<div class="box-white anim2 delay-5">
+									<img
+										src="assets/images/item_box_zblizenie.png"
+										alt="Permen logo"
+									/>
+									<img
+										src="assets/images/item_zegar_2.png"
+										alt="Permen logo"
+										class="icon-white"
+									/>
+								</div>
+								<div class="box-white anim2 delay-6">
+									<img
+										src="assets/images/item_box_posilek.png"
+										alt="Permen logo"
+									/>
+									<img
+										src="assets/images/item_jedzenie.png"
+										alt="Permen logo"
+										class="icon-white"
+									/>
+								</div>
+								<div class="box-white anim2 delay-7">
+									<img
+										src="assets/images/item_box_dawka.png"
+										alt="Permen logo"
+									/>
+									<img
+										src="assets/images/item_dawka.png"
+										alt="Permen logo"
+										class="icon-white"
+									/>
+								</div>
+								<div class="box-white anim2 delay-8">
+									<img
+										src="assets/images/item_box_red2.png"
+										alt="Permen logo"
+									/>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="page page8" data-name="8">
+						<div
+							class="page-scale-wrap mq-none mq-default"
+							role="region"
+							data-layout-name="undefined"
+							style="width: 1920px; height: 1200px"
+						>
+							<img
+								src="assets/images/bg.png"
+								alt="Rectangle"
+								id="item18988"
+								class="pageItem"
+								data-src="assets/images/bg.png"
+							/>
+							<div class="slupek-cena">
+								<img src="assets/images/cena.png" alt="Permen logo" />
+							</div>
+							<div class="slupek anim1 delay-1">
+								<img src="assets/images/slupek.png" alt="Permen logo" />
+							</div>
+							<div class="slupek-opakowanie">
+								<img
+									src="assets/images/item_opakowanie.png"
+									alt="Permen logo"
+								/>
+							</div>
+							<div class="slupek-logo">
+								<img src="assets/images/txt.png" alt="Permen logo" />
+							</div>
+						</div>
+					</li>
+					<li class="page" data-name="9">
+						<div
+							class="page-scale-wrap mq-none mq-default"
+							role="region"
+							data-layout-name="undefined"
+							style="width: 1920px; height: 1200px"
+						>
+							<img
+								src="assets/images/item_kazdy.png"
+								alt="Rectangle"
+								id="item18988"
+								class="pageItem"
+								data-src="assets/images/item_kazdy.png"
+							/>
+							<img
+								src="assets/images/item_napisy.png"
+								alt="poswiata"
+								class="opak-slide anim2"
+							/>
+						</div>
+					</li>
+					<li class="page" data-name="10">
+						<div
+							class="page-scale-wrap mq-none mq-default"
+							role="region"
+							data-layout-name="undefined"
+							style="width: 1920px; height: 1200px"
+						>
+							<img
+								src="assets/images/item_ostatni.png"
+								alt="Rectangle"
+								id="item18988"
+								class="pageItem"
+								data-src="assets/images/item_ostatni.png"
+							/>
+						</div>
+					</li>
+				</ul>
+
+				<nav id="page-nav">
+					<img
+						src="assets/images/item_16737_b.png"
+						alt="Rectangle"
+						style="top: 1095px !important; max-width: 1920px; height: 60px"
+						id="item16737"
+						class="pageItem"
+					/>
+					<img
+						alt="Group"
+						style="left: 1770px !important; top: 1114px !important"
+						id="item13485"
+						class="pageItem"
+						src="assets/images/item_13485.png"
+					/>
+					<img
+						alt="Group"
+						style="left: 40px !important; top: 1126px !important"
+						id="home"
+						class="pageItem"
+						src="assets/images/item_13506.png"
+						type="button"
+						onClick="window.location.reload()"
+					/>
+
+					<img
+						alt="IOL"
+						style="left: 110px !important; top: 1137px !important"
+						id="iol"
+						class="pageItem popupopen"
+						src="assets/images/item_13517.png"
+						[data-popup]="info-lek"
+					/>
+					<!---<img
+						alt="arrow-left"
+						class="pageItem hd"
+						style="
+							left: 855px !important;
+							top: 1097px !important;
+							transform: scale(0.4);
+						"
+						id="backBtn"
+						src="assets/images/item_7482.png"
+					/>
+					<img
+						alt="arrow-right"
+						class="pageItem hd"
+						style="
+							left: 964px !important;
+							top: 1096px !important;
+							transform: scale(0.4);
+						"
+						id="nextBtn"
+						src="assets/images/item_7485.png"
+					/>-->
+					<div class="popup" id="info-lek">
+						<img
+							src="assets/images/item_ostatni.png"
+							alt="Rectangle"
+							id="item18655"
+							class="pageItem"
+							data-src="assets/images/item_pop_1.png"
+						/>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</body>
+</html>
